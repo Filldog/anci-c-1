@@ -1,0 +1,29 @@
+﻿Построение начато 24.02.2014 23:12:49.
+     1>Проект "C:\Users\Даша\documents\visual studio 2010\Projects\kn\kn\kn.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\kn.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt C.c
+         C.c
+     1>c:\users\даша\documents\visual studio 2010\projects\kn\kn\c.c(14): warning C4244: функция: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>c:\users\даша\documents\visual studio 2010\projects\kn\kn\c.c(111): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(304): см. объявление "scanf"
+       ManifestResourceCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Даша\documents\visual studio 2010\Projects\kn\Debug\kn.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\kn.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Даша\documents\visual studio 2010\Projects\kn\Debug\kn.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Даша\documents\visual studio 2010\Projects\kn\Debug\kn.lib" /MACHINE:X86 Debug\kn.exe.embed.manifest.res
+         Debug\C.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\kn.exe.embed.manifest" /manifest Debug\kn.exe.intermediate.manifest
+         Для всех выходных данных обновления не требуется.
+       LinkEmbedManifest:
+         Для всех выходных данных обновления не требуется.
+         kn.vcxproj -> C:\Users\Даша\documents\visual studio 2010\Projects\kn\Debug\kn.exe
+       FinalizeBuildStatus:
+         Файл "Debug\kn.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\kn.lastbuildstate".
+     1>Построение проекта "C:\Users\Даша\documents\visual studio 2010\Projects\kn\kn\kn.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:00.49
